@@ -1,0 +1,29 @@
+Practices writing multiple Java classes, and using several Java
+library classes to do I/O and simple collection operation, such as Scanner,
+ArrayList and HashMap
+
+The user will start their “session”. The “session” will be 1 or more games, each
+game is 5 rounds.
+The user will first select an opposing “computer strategy”. Once the game begins,
+the user will play 5 rounds for one “game” against the computer with the strategy
+chosen. The user can cooperate or betray in each round. The computer can
+cooperate or betray in each round as well and then we reach an outcome for that
+round.
+At the end of the 5 round game, a final score will be printed for the 5 rounds, and
+the player who had the lowest total years for that 5 round game will be declared the
+winner. Then the user will be prompted if they would like to play again in their
+session. In addition, the program saves the statistics of all the games in the session
+based on date/time and when the session is over, an overall summary of all games
+played in the session will be printed before program finishes.Scoring:
+If both the players remain silent (both players choose 1), both get 2 years in prison.
+If the player betrays (choose 2) and the computer remains silent (choose 1), the
+player gets 1 year in prison and the computer gets 5 years in prison.
+If the player stays silent and the computer betrays, the player gets 5 years in prison
+and the computer gets 1 year in prison.
+If both the player and the computer betray (both choose 2) , both get 3 years in
+prison. Below is the summary, 1 means stay silent, 2 means betray.
+Player,   computer player years,    computer years
+1,1               2 year                2 years
+2,1               1 years               5 years
+1,2               5 year                1 years
+2 2               3 years               3 years
