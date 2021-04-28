@@ -1,0 +1,10 @@
+A frame that has a “Mainpanel” covering it and the class MainPanel.java consists of a toolbar, and two subpanels. Choose different colors for the items.
+
+In constructor for MainPanel we fill a static one D array(imagaA) with images of the 5 gifs using toolkit
+
+When user clicks one of the 5 buttons in the tool bar on top panel, this calls a button listener method (actionPerformed) and 
+sets a variable (“selectedTile”) in the code for the yellow center panel (TileGridPanel.java).
+
+Then when user clicks on any spot in the yellow area  (mouse click), this calls a mouse listener method in TileGridPanel.java and you fill a 5x 5 gif array 
+with the selected image chosen from the static array in MainPanel.java.
+Then fire paint event to paint the 5 x 5 grid in the center of the yellow panel 
