@@ -1,0 +1,9 @@
+ Prisoner’s Dilemma Game reimplemented as a Java Swing application
+
+Contains two major panels (additional JPanels may be nested for layout purpose). The left panel has a JList of the games that have been completed. When a game is
+selected, its statistics will be displayed in the corresponding JTextFields (e.g., how
+many rounds the game lasted, what strategy the computer used, the total sentences for the player and computer, and the winner of the game).
+
+The right panel is for the ongoing game. It has a JButton called “Start New Game” and a JComboBox that allows you to select the computer’s strategy. 
+It has two additional JButtons (“Remain Silent” and “Testify”) that allow the player to decide what to do each round. 
+It also has a JTextArea to display prompts for the player and the results as the game is played.
