@@ -1,0 +1,4 @@
+has driver/test application that demonstrates class employees capabilities by creating two employee objects and displaying
+each employees yearly salary. Then, gives each employee a 10% raise and shows each employees new updated salary
+
+has a date class that is used to display month, day, and year separated by foward slashes 
