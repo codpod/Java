@@ -1,1 +1,53 @@
+Practice writing Java classes, packages, adding variables and methods to the class, as well as exception throwing and handling. 
 
+The output of the program should have informational messages after (and/or before) each operation so the user knows what is being attempted and what the result was. 
+Reading the output from the program should make it clear to the reader what the sequence of operations was and what happened
+
+
+
+
+
+
+  SAMPLE OUTPUT
+
+In drawline -draw a line from x of 10 and y of 10
+to x of 100 and y of 100 SUCCESS
+
+In drawline -draw a line from x of 5 and y of 5
+to x of 100 and y of 100 SUCCESS
+
+--EXCEPTION: MY TRY CATCH CAUGHT A GENERIC EXCEPTION IN A SET METHOD FOR BAD VALUE OF X1 FOR AN EXISTING LINE
+
+      java.lang.Exception: Value 3000 Was out of Bounds
+
+In drawline -draw a line from x of 5 and y of 5
+to x of 100 and y of 100 SUCCESS
+
+In drawline -draw a line from x of 100 and y of 100
+to x of 400 and y of 400 SUCCESS
+
+In drawline -draw a line from x of 100 and y of 100
+to x of 400 and y of 479 SUCCESS
+
+The angle for line 1 is 0.7853981633974482
+The angle for line 2 is 0.9012249669521654
+
+The length for line 1 is 134.35028842544403
+The length for line 2 is 483.3642518846424
+
+test 2D point Constructor X1 = 10
+
+test 2D point Constructor X2 = 5
+
+test 2D point Constructor Y1 = 100
+
+test 2D point Constructor Y1 = 400
+
+
+EXCEPTION:This try catch caught a Generic Exception for a bad constructor -Failed to create a line with 4 invalid values-leaving with rc of 88
+
+Java Result: 88
+
+
+
+BUILD SUCCESSFUL (total time: 0 seconds)
