@@ -1,10 +1,7 @@
 
 
 /* Author: Cody McAntire
- * Assignment 3
- * Due: 02/21/21
- * JAVA 470
- * 
+ *
  * The PDGame class contains an array list for keeping the user history
  * an array list of strings for each strategy implemented
  * a gamestat null reference object that will be filled with game stats, a scanner, 
