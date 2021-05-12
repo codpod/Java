@@ -1,8 +1,5 @@
 package src;
 /* Author: Cody McAntire
- * Assignment 3
- * Due: 02/21/21
- * JAVA 470
  * 
  * The class GameStat (there is a pointer to this obj at top of PDGame)
  * Has private ints that track player and computer sentence/years and number of rounds played
