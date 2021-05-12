@@ -1,9 +1,6 @@
 package src;
 
 /* Author: Cody McAntire
- * Assignment 3
- * Due: 02/21/21
- * JAVA 470
  * 
  * The PDGameApp class provides an interface for user input.
  * Within the main() method there is a Scanner to retrieve input from the console
