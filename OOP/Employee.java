@@ -1,8 +1,6 @@
 package src;
 //
 // Cody McAntire
-// Assignment 1
-// Due: 01/24/2020
 //
 
 public class Employee
